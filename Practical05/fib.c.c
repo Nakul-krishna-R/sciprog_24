@@ -17,7 +17,7 @@ int main(void){
     printf("%d, %d",f0,f1);
 
     int i;
-    for (i = 2, i<=n; i++){
+    for (i = 2; i<=n; i++){
         fib(&f1,&f0);
         printf("%d ",f1);
         if ((i+1)%==10){
