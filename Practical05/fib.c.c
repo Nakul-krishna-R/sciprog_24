@@ -20,7 +20,7 @@ int main(void){
     for (i = 2; i<=n; i++){
         fib(&f1,&f0);
         printf("%d ",f1);
-        if ((i+1)%==10){
+        if ((i+1)%10==0){
             printf("\n");
         }
     }
