@@ -47,5 +47,5 @@ double archtanh1(double x,double delta){
 }
 
 double arctanh2(double x){
-    return (log(1+x)-log(1-x)/2);
+    return (log(1+x)-log(1-x))/2;
 }
