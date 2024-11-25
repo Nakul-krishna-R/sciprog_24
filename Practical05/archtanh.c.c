@@ -10,7 +10,7 @@ int main(void){
     printf("Please enter a real positive number delta: \n");
     scanf("%lf",&delta);
 
-    if delta < 0 {
+    if (delta < 0) {
         printf("Delta was negative\n");
         exit(1);
     }
